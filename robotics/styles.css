@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+    color: rgb(39, 37, 34);
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.2;
+    color: rgb(255, 189, 108);
+}
+
+p{
+    font-size: 2rem;
+    line-height: 2;
+}
+/* Header  */
+
+header{
+    display: flex;
+    justify-content : space-around;
+    align-items: center;
+    padding : 2rem;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 1.5rem;
+}
+
+.logo img{
+    height:4rem;
+}
+
+li img{
+    height:3rem;
+    margin-left: 2rem;
+}
+
+/* Title section */
+
+#title{
+    padding: 4rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    padding: .5rem 2rem;
+    background: linear-gradient(90deg, rgba(226,225,244,1) 0%, rgba(195,195,236,1) 0%, rgba(187,240,251,1) 100%);
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: rgb(134, 134, 230);
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background: black;
+    color: #fff;
+}
+
+.vr{
+    border-left: 12px solid rgb(255, 148, 148);
+    height: 400px;
+}
+
+a:hover{
+    color:rgb(175, 175, 223)
+}
+
+.t-p{
+    color: rgb(66, 70, 73);
+}
+
+/* Description of robots */
+
+#description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    border-radius: 1rem;
+    width: 20rem;
+    height:35rem;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.card-img{
+    width: 20rem;
+    height: 10rem;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.robo-1{
+    background-image: url('Images/card1.jpg');
+}
+
+.robo-2{
+    background-image: url('Images/card2.jpg');
+}
+
+.robo-3{
+    background-image: url('Images/card3.jpg');
+}
+
+.card p{
+    font-size: .7rem;
+    width: 80%;
+    padding:0 1rem 1rem
+}
+
+.card h2{
+    width: 100%;
+    padding:0 1rem 1rem
+}
+
+.card:hover{
+    background: rgb(62,62,62);
+    cursor: pointer;
+    color: #fff;
+    transform: scaleX(1.07);
+}
